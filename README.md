@@ -2,6 +2,8 @@
 
 A set of snippets to include govuk-elements in your visual code editor.
 
+![Demo](https://github.com/abbott567/govuk-elements-snippets/raw/master/images/demo.gif)
+
 ## Commands
 
 ## Layout
