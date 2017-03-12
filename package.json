@@ -1,0 +1,39 @@
+{
+	"name": "govuk-elements-snippets",
+	"displayName": "GOVUK Elements Snippets",
+	"description": "GOVUK Elements Snippets for VS Code",
+	"icon": "images/icon.png",
+	"version": "0.1.0",
+	"publisher": "abbott567",
+	"license": "All content is available under the Open Government Licence v3.0, except where otherwise stated.",
+	"homepage": "https://github.com/abbott567/govuk-elements-snippets/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/abbott567/govuk-elements-snippets.git"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"keywords": [
+		"government",
+		"govuk",
+		"gov.uk",
+		"snippet",
+		"snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			},
+			{
+				"language": "nunjucks",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	}
+}
