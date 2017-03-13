@@ -60,3 +60,9 @@ Hidden text
 GitHub Repo: [https://github.com/abbott567/govuk-elements-snippets](https://github.com/abbott567/govuk-elements-snippets)
 
 Feel free to fork this repo and add any snippets you think would be useful. Any pull requests that are merged will be updated into the extension on the Visual Studio Code market place will full credits listed in the change log.
+
+## To do
+
+- Split elements up into multiple JSON files to keep things cleaner
+- Split layouts so .html and .njk can include different layout files
+- Add validation elements
