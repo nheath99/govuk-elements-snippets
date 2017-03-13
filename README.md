@@ -7,10 +7,13 @@ A set of snippets to include govuk-elements in your visual code editor.
 ## Commands
 
 ## Layout
+Nunjucks page template  
 `govuk-page`  
+
+## Form elements
+Form group  
 `govuk-form-group`
 
-## Form
 Input fields  
 `govuk-input`  
 `govuk-input-helptext`  
@@ -51,3 +54,9 @@ Legal text
 
 Hidden text  
 `govuk-hidden-text`
+
+## Contributing
+
+GitHub Repo: [https://github.com/abbott567/govuk-elements-snippets](https://github.com/abbott567/govuk-elements-snippets)
+
+Feel free to fork this repo and add any snippets you think would be useful. Any pull requests that are merged will be updated into the extension on the Visual Studio Code market place will full credits listed in the change log.
