@@ -33,7 +33,7 @@
 		"prefix": "govuk-input",
 		"body": [
 			"<label class=\"form-label\" for=\"full-name-f1\">Full name</label>",
-			"<input class=\"form-control\" id=\"full-name-f1\" type=\"text\">"
+			"<input class=\"form-control\" id=\"full-name-f1\" type=\"text\">$0"
 		],
 		"description": "GOVUK style input"
 	},
@@ -48,7 +48,7 @@
 			"    For example, ‘QQ 12 34 56 C’.",
 			"  </span>",
 			"</label>",
-			"<input class=\"form-control\" id=\"ni-number\" type=\"text\">"
+			"<input class=\"form-control\" id=\"ni-number\" type=\"text\">$0"
 		],
 		"description": "GOVUK input with help text"
 	},
@@ -60,7 +60,7 @@
 			"    Upload a file",
 			"  </label>",
 			"  <input type=\"file\" id=\"file-input\">",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK style file upload"
 	},
@@ -74,12 +74,12 @@
 			"    <option>GOV.UK elements option 2</option>",
 			"    <option>GOV.UK elements option 3</option>",
 			"  </select>",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK style drop down"
 	},
-	"GOVUK radio buttons": {
-		"prefix": "govuk-radio-buttons",
+	"GOVUK radio buttons OLD": {
+		"prefix": "govuk-radio-buttons-old",
 		"body": [
 			"<div class=\"form-group\">",
 			"  <fieldset class=\"inline\">",
@@ -96,12 +96,12 @@
 			"      No",
 			"    </label>",
 			"  </fieldset>",
-			"</div>"
+			"</div>$0"
 		],
-		"description": "GOVUK style radio buttons"
+		"description": "GOVUK style radio buttons [OLD]"
 	},
-	"GOVUK stacked radio buttons": {
-		"prefix": "govuk-radio-buttons-stacked",
+	"GOVUK stacked radio buttons OLD": {
+		"prefix": "govuk-radio-buttons-stacked-old",
 		"body": [
 			"<div class=\"form-group\">",
 			"  <fieldset></fieldset>",
@@ -124,12 +124,59 @@
 			"      I am a British citizen living abroad",
 			"    </label>",
 			"  </fieldset>",
-			"</div>"
+			"</div>$0"
 		],
-		"description": "GOVUK stacked radio buttons"
+		"description": "GOVUK stacked radio buttons [OLD]"
 	},
-	"GOVUK checkboxes": {
-		"prefix": "govuk-checkboxes",
+	"GOVUK radio buttons NEW": {
+		"prefix": "govuk-radio-buttons-new",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <fieldset class=\"inline\">",
+			"    <legend class=\"visually-hidden\">Do you already have a personal user account?</legend>",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"radio-inline-1\" type=\"radio\" name=\"radio-inline-group\" value=\"Yes\">",
+			"      <label for=\"radio-inline-1\">Yes</label>",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"radio-inline-2\" type=\"radio\" name=\"radio-inline-group\" value=\"No\">",
+			"      <label for=\"radio-inline-2\">No</label>",
+			"    </div>",
+			"  </fieldset>",
+			"</div>$0"
+		],
+		"description": "GOVUK style radio buttons [NEW]"
+	},
+	"GOVUK stacked radio buttons NEW": {
+		"prefix": "govuk-radio-buttons-stacked-new",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <fieldset>",
+			"    <legend class=\"visually-hidden\">Where do you live?</legend>",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"radio-1\" type=\"radio\" name=\"radio-group\" value=\"Northern Ireland\">",
+			"      <label for=\"radio-1\">Northern Ireland</label>",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"radio-2\" type=\"radio\" name=\"radio-group\" value=\"Isle of Man or the Channel Islands\">",
+			"      <label for=\"radio-2\">Isle of Man or the Channel Islands</label>",
+			"    </div>",
+			"",
+			"    <p class=\"form-block\">or</p>",
+			"",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"radio-3\" type=\"radio\" name=\"radio-group\" value=\"I am a British citizen living abroad\">",
+			"      <label for=\"radio-3\">I am a British citizen living abroad</label>",
+			"    </div>",
+			"  </fieldset>",
+			"</div>$0"
+		],
+		"description": "GOVUK stacked radio buttons [NEW]"
+	},
+	"GOVUK checkboxes OLD": {
+		"prefix": "govuk-checkboxes-old",
 		"body": [
 			"<fieldset>",
 			"  <legend class=\"visually-hidden\">Which types of waste do you transport regularly?</legend>",
@@ -148,12 +195,36 @@
 			"    <input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\">",
 			"    Farm or agricultural waste",
 			"  </label>",
-			"</fieldset>"
+			"</fieldset>$0"
 		],
-		"description": "GOVUK checkboxes"
+		"description": "GOVUK checkboxes [OLD]"
 	},
-	"GOVUK checkbox disclaimer": {
-		"prefix": "govuk-checkbox-disclaimer",
+	"GOVUK checkboxes NEW": {
+		"prefix": "govuk-checkboxes-new",
+		"body": [
+			"<fieldset>",
+			"  <legend class=\"visually-hidden\">Which types of waste do you transport regularly?</legend>",
+			"",
+			"  <div class=\"multiple-choice\">",
+			"    <input id=\"waste-type-1\" name=\"waste-types\" type=\"checkbox\" value=\"waste-animal\">",
+			"    <label for=\"waste-type-1\">Waste from animal carcasses</label>",
+			"  </div>",
+			"",
+			"  <div class=\"multiple-choice\">",
+			"    <input id=\"waste-type-2\" name=\"waste-types\" type=\"checkbox\" value=\"waste-mines\">",
+			"    <label for=\"waste-type-2\">Waste from mines or quarries</label>",
+			"  </div>",
+			"",
+			"  <div class=\"multiple-choice\">",
+			"    <input id=\"waste-type-3\" name=\"waste-types\" type=\"checkbox\" value=\"waste-farm-agricultural\">",
+			"    <label for=\"waste-type-3\">Farm or agricultural waste</label>",
+			"  </div>",
+			"</fieldset>$1"
+		],
+		"description": "GOVUK checkboxes [NEW]"
+	},
+	"GOVUK checkbox disclaimer OLD": {
+		"prefix": "govuk-checkbox-disclaimer-old",
 		"body": [
 			"<div class=\"form-group\">",
 			"  <label class=\"form-label\" for=\"telephone-number\">Enter your telephone number</label>",
@@ -162,12 +233,26 @@
 			"<label class=\"block-label selection-button-checkbox\" for=\"checkbox-telephone-number\">",
 			"  <input id=\"checkbox-telephone-number\" name=\"contact-by-text-phone\" type=\"checkbox\" value=\"true\">",
 			"  I need to be contacted using a text phone",
-			"</label>"
+			"</label>$0"
 		],
-		"description": "GOVUK checkbox disclaimer"
+		"description": "GOVUK checkbox disclaimer [OLD]"
 	},
-	"GOVUK radio buttons with hidden field": {
-		"prefix": "govuk-radio-buttons-hidden",
+	"GOVUK checkbox disclaimer NEW": {
+		"prefix": "govuk-checkbox-disclaimer-new",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <label class=\"form-label\" for=\"telephone-number\">Enter your telephone number</label>",
+			"  <input class=\"form-control\" id=\"telephone-number\" name=\"telephone-number\" type=\"text\">",
+			"</div>",
+			"<div class=\"multiple-choice\">",
+			"  <input id=\"checkbox-telephone-number\" name=\"contact-by-text-phone\" type=\"checkbox\" value=\"true\">",
+			"  <label for=\"checkbox-telephone-number\">I need to be contacted using a text phone</label>",
+			"</div>$0"
+		],
+		"description": "GOVUK checkbox disclaimer [NEW]"
+	},
+	"GOVUK radio buttons with hidden field OLD": {
+		"prefix": "govuk-radio-buttons-hidden-old",
 		"body": [
 			"<div class=\"form-group\">",
 			"  <fieldset>",
@@ -200,12 +285,50 @@
 			"      <input class=\"form-control\" name=\"contact-text-message\" type=\"text\" id=\"contact-text-message\">",
 			"    </div>",
 			"  </fieldset>",
-			"</div>"
+			"</div>$0"
 		],
-		"description": "GOVUK radio buttons with hidden field"
+		"description": "GOVUK radio buttons with hidden field [OLD]"
 	},
-	"GOVUK checkboxes with hidden field": {
-		"prefix": "govuk-checkboxes-hidden-field",
+	"GOVUK radio buttons with hidden field NEW": {
+		"prefix": "govuk-radio-buttons-hidden-new",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <fieldset>",
+			"    <legend class=\"visually-hidden\">How do you want to be contacted?</legend>",
+			"",
+			"    <div class=\"multiple-choice\" data-target=\"contact-by-email\">",
+			"      <input id=\"example-contact-by-email\" type=\"radio\" name=\"radio-contact-group\" value=\"Yes\">",
+			"      <label for=\"example-contact-by-email\">Email</label>",
+			"    </div>",
+			"    <div class=\"panel panel-border-narrow js-hidden\" id=\"contact-by-email\">",
+			"      <label class=\"form-label\" for=\"contact-email\">Email address</label>",
+			"      <input class=\"form-control\" name=\"contact-email\" type=\"text\" id=\"contact-email\">",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\" data-target=\"contact-by-phone\">",
+			"      <input id=\"example-contact-by-phone\" type=\"radio\" name=\"radio-contact-group\" value=\"No\">",
+			"      <label for=\"example-contact-by-phone\">Phone</label>",
+			"    </div>",
+			"    <div class=\"panel panel-border-narrow js-hidden\" id=\"contact-by-phone\">",
+			"      <label class=\"form-label\" for=\"contact-phone\">Phone number</label>",
+			"      <input class=\"form-control\" name=\"contact-phone\" type=\"text\" id=\"contact-phone\">",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\" data-target=\"contact-by-text\">",
+			"      <input id=\"example-contact-by-text\" type=\"radio\" name=\"radio-contact-group\" value=\"No\">",
+			"      <label for=\"example-contact-by-text\">Text message</label>",
+			"    </div>",
+			"    <div class=\"panel panel-border-narrow js-hidden\" id=\"contact-by-text\">",
+			"      <label class=\"form-label\" for=\"contact-text-message\">Mobile phone number</label>",
+			"      <input class=\"form-control\" name=\"contact-text-message\" type=\"text\" id=\"contact-text-message\">",
+			"    </div>",
+			"  </fieldset>",
+			"</div>$0"
+		],
+		"description": "GOVUK radio buttons with hidden field [NEW]"
+	},
+	"GOVUK checkboxes with hidden field OLD": {
+		"prefix": "govuk-checkboxes-hidden-field-old",
 		"body": [
 			"<div class=\"form-group\">",
 			"  <fieldset>",
@@ -230,9 +353,39 @@
 			"      <input class=\"form-control\" type=\"text\" id=\"nationalities-other-country\" name=\"nationalities-other-country\">",
 			"    </div>",
 			"  </fieldset>",
-			"</div>"
+			"</div>$0"
 		],
-		"description": "GOVUK checkboxes with hidden field"
+		"description": "GOVUK checkboxes with hidden field [OLD]"
+	},
+	"GOVUK checkboxes with hidden field NEW": {
+		"prefix": "govuk-checkboxes-hidden-field-new",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <fieldset>",
+			"    <legend class=\"visually-hidden\">What is your nationality?</legend>",
+			"",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"nationalities-british\" name=\"nationalities\" type=\"checkbox\" value=\"British\">",
+			"      <label for=\"nationalities-british\">British (including English, Scottish, Welsh and Northern Irish)</label>",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\">",
+			"      <input id=\"nationalities-irish\" name=\"nationalities\" type=\"checkbox\" value=\"Irish\">",
+			"      <label for=\"nationalities-irish\">Irish</label>",
+			"    </div>",
+			"",
+			"    <div class=\"multiple-choice\" data-target=\"example-different-country\">",
+			"      <input id=\"nationalities-other\" name=\"nationalities\" type=\"checkbox\" value=\"Citizen of a different country\">",
+			"      <label for=\"nationalities-other\">Citizen of a different country</label>",
+			"    </div>",
+			"    <div class=\"panel panel-border-narrow js-hidden\" id=\"example-different-country\">",
+			"      <label class=\"form-label\" for=\"nationalities-other-country\">Country name</label>",
+			"      <input class=\"form-control\" type=\"text\" id=\"nationalities-other-country\" name=\"nationalities-other-country\">",
+			"    </div>",
+			"  </fieldset>",
+			"</div>$0"
+		],
+		"description": "GOVUK checkboxes with hidden field [NEW]"
 	},
 	"GOVUK input date": {
 		"prefix": "govuk-input-date",
@@ -263,7 +416,7 @@
 			"      </div>",
 			"    </div>",
 			"  </fieldset>",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK input date"
 	},
@@ -274,7 +427,7 @@
 			"  <p>",
 			"    It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.",
 			"  </p>",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK inset text with narrow border"
 	},
@@ -285,7 +438,7 @@
 			"  <p>",
 			"    It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.",
 			"  </p>",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK inset text with wide border"
 	},
@@ -299,7 +452,7 @@
 			"  <strong class=\"bold-small\">",
 			"    You can be fined up to £5,000 if you don’t register.",
 			"  </strong>",
-			"</div>"
+			"</div>$0"
 		],
 		"description": "GOVUK legal text"
 	},
@@ -317,7 +470,7 @@
 			"      We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post.",
 			"    </p>",
 			"  </div>",
-			"</details>"
+			"</details>$0"
 		],
 		"description": "GOVUK hidden text"
 	},
@@ -352,21 +505,21 @@
 	"GOVUK button regular": {
 		"prefix": "govuk-button-regular",
 		"body": [
-			"<input class=\"button\" type=\"submit\" value=\"Save and continue\">"
+			"<input class=\"button\" type=\"submit\" value=\"Save and continue\">$0"
 		],
 		"description": "GOVUK button regular"
 	},
 	"GOVUK button start": {
 		"prefix": "govuk-button-start",
 		"body": [
-			"<a class=\"button button-start\" href=\"#\" role=\"button\">Start now</a>"
+			"<a class=\"button button-start\" href=\"#\" role=\"button\">Start now</a>$0"
 		],
 		"description": "GOVUK button start"
 	},
 	"GOVUK button disabled": {
 		"prefix": "govuk-button-disabled",
 		"body": [
-			"<input class=\"button\" type=\"submit\" value=\"Save and continue\" disabled=\"disabled\">"
+			"<input class=\"button\" type=\"submit\" value=\"Save and continue\" disabled=\"disabled\">$0"
 		],
 		"description": "GOVUK button disabled"
 	}

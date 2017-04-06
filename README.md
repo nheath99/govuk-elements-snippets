@@ -2,6 +2,17 @@
 
 A set of snippets to include govuk-elements in your visual code editor.
 
+---
+
+## `ATTENTION`
+
+`With the introduction of govuk-element-sass 3.0, the markup on radio buttons and 
+checkboxes has changed. For now, both the new and old versions are available and 
+suffixed accordingly with [NEW] and [OLD]. The old ones will be removed in a 
+future release now that they're depricated.`
+
+---
+
 ![Demo](https://github.com/abbott567/govuk-elements-snippets/raw/master/images/demo.gif)
 
 ## Commands
