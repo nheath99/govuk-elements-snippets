@@ -1,79 +1,57 @@
-# GOVUK Elements Snippets
+# GOV.UK Design System Snippets
 
-A set of snippets to include govuk-elements in your visual code editor.
-
----
-
-## `ATTENTION`
-
-`With the introduction of govuk-element-sass 3.0, the markup on radio buttons and 
-checkboxes has changed. For now, both the new and old versions are available and 
-suffixed accordingly with [NEW] and [OLD]. The old ones will be removed in a 
-future release now that they're depricated.`
+A set of snippets to include GOV.UK Design System components and styles in your visual code editor.
 
 ---
 
 ![Demo](https://github.com/abbott567/govuk-elements-snippets/raw/master/images/demo.gif)
 
-## Commands
+Snippets have been created for the vast majority of the Styles and Components from https://design-system.service.gov.uk:
 
-## Layout
-Nunjucks page template  
-`govuk-page`  
+## Styles
+### Layout
+- [ ] Two-thirds 
+- [ ] Two-thirds / One-third
+- [ ] Grids
 
-## Form elements
-Form group  
-`govuk-form-group`
+### Page Template
+- [ ] Default
+- [ ] Customised page template
 
-Input fields  
-`govuk-input`  
-`govuk-input-helptext`  
-`govuk-input-date`  
-`govuk-file-upload`
+### Typography
+- [x] Headings
+- [x] Headings with captions
+- [x] Paragraphs
+- [x] Lead paragraph
+- [x] Body small
+- [x] Links
+- [x] Lists
+- [x] Bulleted lists
+- [ ] Numbered lists
+- [ ] Section break
 
-Dropdown  
-`govuk-dropdown`
-
-Radio buttons  
-`govuk-radio-buttons`  
-`govuk-radio-buttons-stacked`
-`govuk-radio-buttons-hidden`  
-
-Checkboxes  
-`govuk-checkboxes`  
-`govuk-checkbox-disclaimer`  
-`govuk-checkboxes-hidden-field`
-
-Buttons  
-`govuk-button-regular`  
-`govuk-button-start`  
-`govuk-button-disabled`  
-
-## Typography
-Headings  
-`govuk-heading-xlarge`  
-`govuk-heading-large`  
-`govuk-heading-medium`  
-`govuk-heading-small`  
-
-Inset text  
-`govuk-inset-text-narrow`  
-`govuk-inset-text-wide`
-
-Legal text  
-`govuk-legal-text`
-
-Hidden text  
-`govuk-hidden-text`
-
-## Contributing
-
-GitHub Repo: [https://github.com/abbott567/govuk-elements-snippets](https://github.com/abbott567/govuk-elements-snippets)
-
-Feel free to fork this repo and add any snippets you think would be useful. Any pull requests that are merged will be updated into the extension on the Visual Studio Code market place will full credits listed in the change log.
-
-## To do
-
-- Split elements up into multiple JSON files to keep things cleaner
-- Split layouts so .html and .njk can include different layout files
-- Add validation elements
+## Components
+- [ ] Back link
+- [ ] Breadcrumbs
+- [ ] Button
+- [ ] Checkboxes
+- [ ] Date input
+- [ ] Details
+- [ ] Error message
+- [ ] Error summary
+- [ ] Fieldset
+- [ ] File upload
+- [ ] Footer
+- [ ] Header
+- [ ] Inset text
+- [ ] Panel
+- [ ] Phase banner
+- [ ] Radios
+- [ ] Select
+- [ ] Skip link
+- [ ] Table
+- [ ] Tabs
+- [ ] Tag
+- [ ] Text input
+- [ ] Textarea
+- [ ] Warning text
