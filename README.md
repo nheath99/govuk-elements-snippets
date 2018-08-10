@@ -38,14 +38,14 @@ Snippets have been created for the vast majority of the Styles and Components fr
 - [x] Date input
 - [x] Details
 - [ ] Error message
-- [ ] Error summary
-- [ ] Fieldset
-- [ ] File upload
-- [ ] Footer
-- [ ] Header
-- [ ] Inset text
-- [ ] Panel
-- [ ] Phase banner
+- [x] Error summary
+- [x] Fieldset
+- [x] File upload
+- [x] Footer
+- [x] Header
+- [x] Inset text
+- [x] Panel
+- [x] Phase banner
 - [ ] Radios
 - [ ] Select
 - [ ] Skip link
