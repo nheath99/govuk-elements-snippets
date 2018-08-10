@@ -1,151 +1,368 @@
 {
-	"GOVUK Heading xl": {
-		"prefix": "govuk-h1",
-		"body": [
-			"<h1 class=\"govuk-heading-xl\">${1:content}</h1>",
-			"$0"
-		],
-		"description": "Use headings consistently to create a clear hierarchy throughout your service."
-	},
-	"GOVUK Heading l": {
-		"prefix": "govuk-h2",
-		"body": [
-			"<h1 class=\"govuk-heading-l\">${1:content}</h1>",
-			"$0"
-		],
-		"description": "Use headings consistently to create a clear hierarchy throughout your service."
-	},
-	"GOVUK Heading m": {
-		"prefix": "govuk-h3",
-		"body": [
-			"<h1 class=\"govuk-heading-m\">${1:content}</h1>",
-			"$0"
-		],
-		"description": "Use headings consistently to create a clear hierarchy throughout your service."
-	},
-	"GOVUK Heading s": {
-		"prefix": "govuk-h4",
-		"body": [
-			"<h1 class=\"govuk-heading-s\">${1:content}</h1>",
-			"$0"
-		],
-		"description": "Use headings consistently to create a clear hierarchy throughout your service."
-	},
-	"GOVUK Heading xl caption": {
-		"prefix": "govuk-h1-caption",
-		"body": [
-			"<span class=\"govuk-caption-xl\">${1:captionText}</span>",
-			"<h1 class=\"govuk-heading-xl\">${2:headingText</h1>",
-			"$0"
-		],
-		"description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
-	},
-	"GOVUK Heading l caption": {
-		"prefix": "govuk-h2-caption",
-		"body": [
-			"<span class=\"govuk-caption-l\">${1:captionText}</span>",
-			"<h2 class=\"govuk-heading-l\">${2:headingText</h2>",
-			"$0"
-		],
-		"description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
-	},
-	"GOVUK Heading m caption": {
-		"prefix": "govuk-h3-caption",
-		"body": [
-			"<span class=\"govuk-caption-m\">${1:captionText}</span>",
-			"<h3 class=\"govuk-heading-m\">${2:headingText</h3>",
-			"$0"
-		],
-		"description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
-	},
-	"GOVUK Heading s caption": {
-		"prefix": "govuk-h4-caption",
-		"body": [
-			"<span class=\"govuk-caption-s\">${1:captionText}</span>",
-			"<h4 class=\"govuk-heading-s\">${2:headingText</h4>",
-			"$0"
-		],
-		"description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
-	},
-	"GOVUK Paragraph body": {
-		"prefix": "govuk-body",
-		"body": [
-			"<p class=\"govuk-body\">${1:content}</p>",
-			"$0"
-		],
-		"description": "The default paragraph font size is 19px on large screens and 16px on small screens."
-	},
-	"GOVUK Paragraph body lead": {
-		"prefix": "govuk-body-l",
-		"body": [
-			"<p class=\"govuk-body-l\">${1:content}</p>",
-			"$0"
-		],
-		"description": "A lead paragraph is an introductory paragraph that you can use at the top of a page to summarise the content. Lead paragraphs use 24px type on desktop and should only be used once per page if needed."
-	},
-	"GOVUK Paragraph body small": {
-		"prefix": "govuk-body-s",
-		"body": [
-			"<p class=\"govuk-body-s\">${1:content}</p>",
-			"$0"
-		],
-		"description": "You can use the govuk-body-s class sparingly to make your paragraph font size smaller: 16px on larger screens and 14px on smaller screens."
-	},
-	"GOVUK Links": {
-		"prefix": "govuk-link",
-		"body": [
-			"<a href=\"${1:location}\" class=\"govuk-link\">${2:content}</a>",
-			"$0"
-		],
-		"description": "Links are blue and underlined by default. If your link is at the end of a sentence or paragraph, make sure that the linked text doesn’t include the full stop."
-	},
-	"GOVUK Link no visited state": {
-		"prefix": "govuk-link-novisitstate",
-		"body": [
-			"<a href=\"${1:location}\" class=\"govuk-link govuk-link--no-visited-state\">${2:content}</a>",
-			"$0"
-		],
-		"description": ""
-	},
-	"GOVUK List": {
-		"prefix": "govuk-list",
-		"body": [
-			"<ul class=\"govuk-list\">",
-			"  <li>",
-			"    <a class=\"govuk-link\" href=\"${1:location}\">${2:content}</a>",
-			"  </li>",
-			"  <li>",
-			"    <a class=\"govuk-link\" href=\"${3:location}\">${4:content}</a>",
-			"  </li>",
-			"  <li>",
-			"    <a class=\"govuk-link\" href=\"${5:location}\">${6:content}</a>",
-			"  </li>",
-			"  <li>",
-			"    <a class=\"govuk-link\" href=\"${7:location}\">${8:content}</a>",
-			"  </li>",
-		  	"</ul>",
-			"$0"
-		],
-		"description": "Use lists to make blocks of text easier to read, and to break information into manageable chunks."
-	},
-	"GOVUK Bulleted lists": {
-		"prefix": "govuk-list-bullet",
-		"body": [
-			"<ul class=\"govuk-list govuk-list--bullet\">",
-			"  <li>${1:content}</li>",
-			"  <li>${2:content}</li>",
-			"  <li>${3:content}</li>",
-			"</ul>",
-			"$0"
-		],
-		"description": "Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and don’t use a full stop at the end."
-	},
-	"": {
-		"prefix": "govuk-",
-		"body": [
-			"",
-			"$0"
-		],
-		"description": ""
-	}
+  "GOVUK Heading xl": {
+    "prefix": "govuk-h1",
+    "body": [
+      "<h1 class=\"govuk-heading-xl\">${1:content}</h1>",
+      "$0"
+    ],
+    "description": "Use headings consistently to create a clear hierarchy throughout your service."
+  },
+  "GOVUK Heading l": {
+    "prefix": "govuk-h2",
+    "body": [
+      "<h1 class=\"govuk-heading-l\">${1:content}</h1>",
+      "$0"
+    ],
+    "description": "Use headings consistently to create a clear hierarchy throughout your service."
+  },
+  "GOVUK Heading m": {
+    "prefix": "govuk-h3",
+    "body": [
+      "<h1 class=\"govuk-heading-m\">${1:content}</h1>",
+      "$0"
+    ],
+    "description": "Use headings consistently to create a clear hierarchy throughout your service."
+  },
+  "GOVUK Heading s": {
+    "prefix": "govuk-h4",
+    "body": [
+      "<h1 class=\"govuk-heading-s\">${1:content}</h1>",
+      "$0"
+    ],
+    "description": "Use headings consistently to create a clear hierarchy throughout your service."
+  },
+  "GOVUK Heading xl caption": {
+    "prefix": "govuk-h1-caption",
+    "body": [
+      "<span class=\"govuk-caption-xl\">${1:captionText}</span>",
+      "<h1 class=\"govuk-heading-xl\">${2:headingText</h1>",
+      "$0"
+    ],
+    "description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
+  },
+  "GOVUK Heading l caption": {
+    "prefix": "govuk-h2-caption",
+    "body": [
+      "<span class=\"govuk-caption-l\">${1:captionText}</span>",
+      "<h2 class=\"govuk-heading-l\">${2:headingText</h2>",
+      "$0"
+    ],
+    "description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
+  },
+  "GOVUK Heading m caption": {
+    "prefix": "govuk-h3-caption",
+    "body": [
+      "<span class=\"govuk-caption-m\">${1:captionText}</span>",
+      "<h3 class=\"govuk-heading-m\">${2:headingText</h3>",
+      "$0"
+    ],
+    "description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
+  },
+  "GOVUK Heading s caption": {
+    "prefix": "govuk-h4-caption",
+    "body": [
+      "<span class=\"govuk-caption-s\">${1:captionText}</span>",
+      "<h4 class=\"govuk-heading-s\">${2:headingText</h4>",
+      "$0"
+    ],
+    "description": "Sometimes you may need to make it clear that a heading is part of a larger section or group."
+  },
+  "GOVUK Paragraph body": {
+    "prefix": "govuk-body",
+    "body": [
+      "<p class=\"govuk-body\">${1:content}</p>",
+      "$0"
+    ],
+    "description": "The default paragraph font size is 19px on large screens and 16px on small screens."
+  },
+  "GOVUK Paragraph body lead": {
+    "prefix": "govuk-body-l",
+    "body": [
+      "<p class=\"govuk-body-l\">${1:content}</p>",
+      "$0"
+    ],
+    "description": "A lead paragraph is an introductory paragraph that you can use at the top of a page to summarise the content. Lead paragraphs use 24px type on desktop and should only be used once per page if needed."
+  },
+  "GOVUK Paragraph body small": {
+    "prefix": "govuk-body-s",
+    "body": [
+      "<p class=\"govuk-body-s\">${1:content}</p>",
+      "$0"
+    ],
+    "description": "You can use the govuk-body-s class sparingly to make your paragraph font size smaller: 16px on larger screens and 14px on smaller screens."
+  },
+  "GOVUK Links": {
+    "prefix": "govuk-link",
+    "body": [
+      "<a href=\"${1:location}\" class=\"govuk-link\">${2:content}</a>",
+      "$0"
+    ],
+    "description": "Links are blue and underlined by default. If your link is at the end of a sentence or paragraph, make sure that the linked text doesn’t include the full stop."
+  },
+  "GOVUK Link no visited state": {
+    "prefix": "govuk-link-novisitstate",
+    "body": [
+      "<a href=\"${1:location}\" class=\"govuk-link govuk-link--no-visited-state\">${2:content}</a>",
+      "$0"
+    ],
+    "description": ""
+  },
+  "GOVUK List": {
+    "prefix": "govuk-list",
+    "body": [
+      "<ul class=\"govuk-list\">",
+      "  <li>",
+      "    <a class=\"govuk-link\" href=\"${1:location}\">${2:content}</a>",
+      "  </li>",
+      "  <li>",
+      "    <a class=\"govuk-link\" href=\"${3:location}\">${4:content}</a>",
+      "  </li>",
+      "  <li>",
+      "    <a class=\"govuk-link\" href=\"${5:location}\">${6:content}</a>",
+      "  </li>",
+      "  <li>",
+      "    <a class=\"govuk-link\" href=\"${7:location}\">${8:content}</a>",
+      "  </li>",
+      "</ul>",
+      "$0"
+    ],
+    "description": "Use lists to make blocks of text easier to read, and to break information into manageable chunks."
+  },
+  "GOVUK Bulleted lists": {
+    "prefix": "govuk-list-bulleted",
+    "body": [
+      "<ul class=\"govuk-list govuk-list--bullet\">",
+      "  <li>${1:content}</li>",
+      "  <li>${2:content}</li>",
+      "  <li>${3:content}</li>",
+      "</ul>",
+      "$0"
+    ],
+    "description": "Introduce bulleted lists with a lead-in line ending in a colon. Start each item with a lowercase letter, and don’t use a full stop at the end."
+  },
+  "GOVUK Numbered Lists": {
+    "prefix": "govuk-list-numbered",
+    "body": [
+      "<ul class=\"govuk-list govuk-list--number\">",
+      "  <li>${1:content}</li>",
+      "  <li>${2:content}</li>",
+      "  <li>${3:content}</li>",
+      "</ul>",
+      "$0"
+    ],
+    "description": "Use numbered lists instead of bulleted lists when the order of the items is relevant."
+  },
+  "GOVUK Section Break": {
+    "prefix": "govuk-break",
+    "body": [
+      "<hr class=\"govuk-section-break ${1:|govuk-section-break--xl|govuk-section-break--l|govuk-section-break--m|} govuk-section-break--visible\">",
+      "$0"
+    ],
+    "description": "You can use the govuk-section-break classes on an <hr> element to create a thematic break between sections of content."
+  },
+  "GOVUK Back link": {
+    "prefix": "govuk-back-link",
+    "body": [
+      "<a href=\"${1:location}\" class=\"govuk-back-link\">${2:content}</a>",
+      "$0"
+    ],
+    "description": "Use the back link component to help users go back to the previous page in a multi-page transaction."
+  },
+  "GOVUK Breadcrumbs": {
+    "prefix": "govuk-breadcrumbs",
+    "body": [
+      "<div class=\"govuk-breadcrumbs\">",
+      "  <ol class=\"govuk-breadcrumbs__list\">",
+      "    <li class=\"govuk-breadcrumbs__list-item\">",
+      "      <a class=\"govuk-breadcrumbs__link\" href=\"${1:location}\">${2:content}</a>",
+      "    </li>",
+      "    <li class=\"govuk-breadcrumbs__list-item\">",
+      "      <a class=\"govuk-breadcrumbs__link\" href=\"${3:location}\">${4:content}</a>",
+      "    </li>",
+      "    <li class=\"govuk-breadcrumbs__list-item\" aria-current=\"page\">${5:content}</li>",
+      "  </ol>",
+      "</div>",
+      "$0"
+    ],
+    "description": "The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels."
+  },
+  "GOVUK Button": {
+    "prefix": "govuk-button",
+    "body": [
+      "<button type=\"submit\" class=\"govuk-button\">",
+      "  ${1:text}",
+      "</button>",
+      "$0"
+    ],
+    "description": "Use the button component to help users carry out an action on a GOV.UK page like starting an application or saving their progress."
+  },
+  "GOVUK Button Disabled": {
+    "prefix": "govuk-button-disabled",
+    "body": [
+      "<button type=\"submit\" disabled=\"disabled\" aria-disabled=\"true\" class=\"govuk-button govuk-button--disabled\">",
+      "  ${1:text}",
+      "</button>",
+      "$0"
+    ],
+    "description": "Disabled buttons have poor contrast and can confuse some users, so avoid them if possible."
+  },
+  "GOVUK Button Start": {
+    "prefix": "govuk-button-start",
+    "body": [
+      "<a href=\"#\" role=\"button\" class=\"govuk-button govuk-button--start\">",
+      "  ${1:text}",
+      "</a>",
+      "$0"
+    ],
+    "description": "Use a start button as the main call to action on your service’s start page."
+  },
+  "GOVUK Checkboxes": {
+    "prefix": "govuk-checkboxes",
+    "body": [
+      "<div class=\"govuk-form-group\">",
+      "  <fieldset class=\"govuk-fieldset\" aria-describedby=\"${1:name}-hint\">",
+      "    <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--xl\">",
+      "      <h1 class=\"govuk-fieldset__heading\">",
+      "        ${2:title}",
+      "      </h1>",
+      "    </legend>",
+      "    <span id=\"${1:name}-hint\" class=\"govuk-hint\">",
+      "      ${3:hint}",
+      "    </span>",
+      "    <div class=\"govuk-checkboxes\">",
+      "      <div class=\"govuk-checkboxes__item\">",
+      "        <input class=\"govuk-checkboxes__input\" id=\"${1:name}-1\" name=\"${1:name}\" type=\"checkbox\" value=\"${4:value1}\">",
+      "        <label class=\"govuk-label govuk-checkboxes__label\" for=\"${1:name}-1\">",
+      "          ${5:text1}",
+      "        </label>",
+      "      </div>",
+      "    </div>",
+      "  </fieldset>",
+      "</div>",
+      "$0"
+    ],
+    "description": "Let users select one or more options by using the checkboxes component."
+  },
+  "GOVUK Checkboxes with Hints": {
+    "prefix": "govuk-checkboxes-hints",
+    "body": [
+      "<div class=\"govuk-form-group\">",
+      "  <fieldset class=\"govuk-fieldset\" aria-describedby=\"${1:name}-hint\">",
+      "    <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--xl\">",
+      "      <h1 class=\"govuk-fieldset__heading\">",
+      "        ${2:title}",
+      "      </h1>",
+      "    </legend>",
+      "    <span id=\"${1:name}-hint\" class=\"govuk-hint\">",
+      "      ${3:hint}",
+      "    </span>",
+      "    <div class=\"govuk-checkboxes\">",
+      "      <div class=\"govuk-checkboxes__item\">",
+      "        <input class=\"govuk-checkboxes__input\" id=\"${1:name}-1\" name=\"${1:name}\" type=\"checkbox\" value=\"${4:value1}\">",
+      "        <label class=\"govuk-label govuk-checkboxes__label\" for=\"${1:name}-1\">",
+      "          ${5:text1}",
+      "        </label>",
+      "        <span id=\"${1:name}-1-item-hint\" class=\"govuk-hint govuk-checkboxes__hint\">",
+      "            ${5:hint1}",
+      "        </span>",
+      "      </div>",
+      "    </div>",
+      "  </fieldset>",
+      "</div>",
+      "$0"
+    ],
+    "description": "You can add hints to checkbox items to provide additional information about the options."
+  },
+  "GOVUK Checkboxes revealing content": {
+    "prefix": "govuk-checkboxes-revealing-content",
+    "body": [
+      "<div class=\"govuk-form-group\">",
+      "  <fieldset class=\"govuk-fieldset\" aria-describedby=\"${1:name}-hint\">",
+      "    <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--xl\">",
+      "      <h1 class=\"govuk-fieldset__heading\">",
+      "        ${2:title}",
+      "      </h1>",
+      "    </legend>",
+      "    <span id=\"${1:name}-hint\" class=\"govuk-hint\">",
+      "      ${3:hint}",
+      "    </span>",
+      "    <div class=\"govuk-checkboxes\">",
+      "      <div class=\"govuk-checkboxes__item\">",
+      "        <input class=\"govuk-checkboxes__input\" id=\"${1:name}-1\" name=\"${1:name}\" type=\"checkbox\" value=\"${4:value1}\" data-aria-controls=\"conditional-${1:name}-1\">",
+      "        <label class=\"govuk-label govuk-checkboxes__label\" for=\"${1:name}-1\">",
+      "          ${5:text1}",
+      "        </label>",
+      "      </div>",
+      "      <div class=\"govuk-checkboxes__conditional govuk-checkboxes__conditional--hidden\" id=\"conditional-${1:name}-1\">",
+      "        ${5:conditionalRevealingContent}",
+      "      </div>",
+      "    </div>",
+      "  </fieldset>",
+      "</div>",
+      "$0"
+    ],
+    "description": "Let users select one or more options by using the checkboxes component."
+  },
+  "GOVUK Date input": {
+    "prefix": "govuk-date-input",
+    "body": [
+      "<div class=\"govuk-form-group\">",
+      "  <fieldset class=\"govuk-fieldset\" aria-describedby=\"${1:name}-hint\" role=\"group\">",
+      "    <legend class=\"govuk-fieldset__legend govuk-fieldset__legend--xl\">",			
+      "      <h1 class=\"govuk-fieldset__heading\">",
+      "        ${2:heading}",
+      "      </h1>",
+      "    </legend>",
+      "    <span id=\"{1:name}-hint\" class=\"govuk-hint\">",
+      "      For example, 31 3 1980",
+      "    </span>",
+      "    <div class=\"govuk-date-input\" id=\"{1:name}\">",
+      "      <div class=\"govuk-date-input__item\">",
+      "        <div class=\"govuk-form-group\">",
+      "          <label class=\"govuk-label govuk-date-input__label\" for=\"{1:name}-day\">",
+      "            Day",
+      "          </label>",
+      "        <input class=\"govuk-input govuk-date-input__input govuk-input--width-2 \" id=\"{1:name}-day\" name=\"{1:name}-day\" type=\"number\" pattern=\"[0-9]*\">",
+      "        </div>",
+      "      </div>",		  
+      "      <div class=\"govuk-date-input__item\">",
+      "        <div class=\"govuk-form-group\">",
+      "          <label class=\"govuk-label govuk-date-input__label\" for=\"{1:name}-month\">",
+      "            Month",
+      "          </label>",
+      "          <input class=\"govuk-input govuk-date-input__input govuk-input--width-2 \" id=\"{1:name}-month\" name=\"{1:name}-month\" type=\"number\" pattern=\"[0-9]*\">",
+      "        </div>",
+      "      </div>",		  
+      "      <div class=\"govuk-date-input__item\">",
+      "        <div class=\"govuk-form-group\">",
+      "          <label class=\"govuk-label govuk-date-input__label\" for=\"{1:name}-year\">",
+      "            Year",
+      "          </label>",
+      "          <input class=\"govuk-input govuk-date-input__input govuk-input--width-4 \" id=\"{1:name}-year\" name=\"{1:name}-year\" type=\"number\" pattern=\"[0-9]*\">",
+      "        </div>",
+      "      </div>",
+      "    </div>",
+      "  </fieldset>",
+      "</div>",
+      "$0"
+    ],
+    "description": "Use the date input component to help users enter a memorable date."
+  },
+  "GOVUK Details": {
+    "prefix": "govuk-details",
+    "body": [
+      "<details class=\"govuk-details\">",
+      "  <summary class=\"govuk-details__summary\">",
+      "    <span class=\"govuk-details__summary-text\">",
+      "      ${1:summaryText}",
+      "    </span>",
+      "  </summary>",
+      "  <div class=\"govuk-details__text\">",
+      "    ${2:detailsText}",
+      "  </div>",
+      "</details>",
+      "$0"
+    ],
+    "description": "The details component is a short link that expands into more detailed help text when a user clicks on it."
+  }
 }

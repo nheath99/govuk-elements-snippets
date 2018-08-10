@@ -27,16 +27,16 @@ Snippets have been created for the vast majority of the Styles and Components fr
 - [x] Links
 - [x] Lists
 - [x] Bulleted lists
-- [ ] Numbered lists
-- [ ] Section break
+- [x] Numbered lists
+- [x] Section break
 
 ## Components
-- [ ] Back link
-- [ ] Breadcrumbs
-- [ ] Button
-- [ ] Checkboxes
-- [ ] Date input
-- [ ] Details
+- [x] Back link
+- [x] Breadcrumbs
+- [x] Button
+- [x] Checkboxes
+- [x] Date input
+- [x] Details
 - [ ] Error message
 - [ ] Error summary
 - [ ] Fieldset
