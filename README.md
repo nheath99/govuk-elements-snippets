@@ -2,10 +2,6 @@
 
 A set of snippets to include GOV.UK Design System components and styles in your visual code editor.
 
----
-
-![Demo](https://github.com/abbott567/govuk-elements-snippets/raw/master/images/demo.gif)
-
 Snippets have been created for the vast majority of the Styles and Components from https://design-system.service.gov.uk:
 
 ## Styles
@@ -46,12 +42,12 @@ Snippets have been created for the vast majority of the Styles and Components fr
 - [x] Inset text
 - [x] Panel
 - [x] Phase banner
-- [ ] Radios
-- [ ] Select
-- [ ] Skip link
-- [ ] Table
+- [x] Radios
+- [x] Select
+- [x] Skip link
+- [x] Table
 - [ ] Tabs
-- [ ] Tag
+- [x] Tag
 - [ ] Text input
 - [ ] Textarea
-- [ ] Warning text
+- [x] Warning text
